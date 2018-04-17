@@ -1,8 +1,9 @@
 package syslogparser
 
 import (
-	. "launchpad.net/gocheck"
 	"testing"
+
+	. "gopkg.in/check.v1"
 )
 
 // Hooks up gocheck into the gotest runner.

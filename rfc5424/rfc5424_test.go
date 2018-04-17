@@ -2,10 +2,11 @@ package rfc5424
 
 import (
 	"fmt"
-	"github.com/jeromer/syslogparser"
-	. "launchpad.net/gocheck"
 	"testing"
 	"time"
+
+	"github.com/jeromer/syslogparser"
+	. "gopkg.in/check.v1"
 )
 
 // Hooks up gocheck into the gotest runner.
